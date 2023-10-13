@@ -9,7 +9,7 @@ import { connect } from "react-redux";
 function Home() {
   
   return (
-    <Stack sx={{ backgroundColor: "#F2F2F6", height: "100vh", padding: 5 }}>
+    <Stack sx={{ backgroundColor: "#F2F2F6", height: "100%", padding: 5}}>
       <ZoneSection />
       <WeeklyProgrammingSection style={{ marginTop: 5 }}/>
       <ConfigSection style={{ marginTop: 5 }} />
